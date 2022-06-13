@@ -27,7 +27,7 @@ bindata/static/js: bindata/static
 
 bindata/static/js/hterm.js: bindata/static/js libapps/hterm/js/*.js
 	cd libapps && \
-	LIBDOT_SEARCH_PATH=`pwd` ./libdot/bin/concat.sh -i ./hterm/concat/hterm_all.concat -o ../bindata/static/js/hterm.js
+	LIBDOT_SEARCH_PATH=`pwd` ./libdot/bin/concat -i ./hterm/concat/hterm_all.concat -o ../bindata/static/js/hterm.js
 
 bindata/static/js/gotty.js: bindata/static/js resources/gotty.js
 	cp resources/gotty.js bindata/static/js/gotty.js
