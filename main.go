@@ -8,7 +8,7 @@ import (
 
 	"github.com/codegangsta/cli"
 
-	"github.com/yudai/gotty/app"
+	"github.com/jvns/gotty/app"
 )
 
 func main() {
