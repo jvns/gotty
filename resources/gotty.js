@@ -20,8 +20,6 @@
 
             term = new hterm.Terminal();
 
-            term.getPrefs().set("send-encoding", "raw");
-
             term.onTerminalReady = function() {
                 var io = term.io.push();
 
